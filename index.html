@@ -1,56 +1,233 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- css linking -->
+<link rel="stylesheet" href="../style.css">
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>A Good Title</title>
-    <link href="carousel.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
 </head>
 
-
 <body>
-    <!-- Navbar -->
-    <!-- target blank opens in new tab -->
-    <h1></h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        
+      <a class="navbar-brand" href="#">Portfolio</a>
+      
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-info my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+      </form>
+  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"> <i class="fa fa-home mx-2"></i>Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-info-circle mx-2"></i>About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-clipboard mx-2"></i>Projects</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-paper-plane mx-2"></i>Contact</a>
+            </li>
+          </li>
+        </ul>
+      
+      </div>
+    </div>
+    </nav>
 
-    <!-- kon order e import kortesi bootstrap > css , id will override class , !important gives priority  -->
-
-    <div class="collapse navbar-collapse " id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item"> <a class="text-info "> Home </a> </li>
-            
-        </ul>`
+    <div class="container text-center text-white headerset" >
+      <h2 > WELCOME </h2>
+      <h1 > NICE TO SEE YOU HERE </h1>
+      <button class="btn btn-lg btn-warning text-black "> My Projects </button>
     </div>
 
 
+    <!-- about me section -->
+<div class="aboutme">
+    <section class="container text-center">
 
-    <!-- main -->
+        
+        <div class="row">
+          <div class="col-6">
+            <h1> About me </h1>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, similique asperiores quis earum tempore deleniti ipsa saepe. Ex asperiores eos obcaecati ratione deserunt fuga quae, expedita sint provident tenetur eius earum officiis minus quas! Perferendis tempore quo ut magni eveniet sequi, nobis facilis nostrum blanditiis saepe accusantium officiis sed dolores.</p>
+          </div>
 
-    <!--Carousel -->
+          <div class="col-4">
+            <img class="img-fluid rounded-circle ml-5" src="/img/profilep.jpg" alt="profile-pic">
+          </div>
 
-    <!--/Carousel -->
-    <!--Gallery-->
+      </div>
+    
+    </section>
+  </div>
 
-    <!-- Projects -->
+  <!-- skills section -->
 
-    <!-- /Project -->
+  <div class="skills">
+    <section class="container text-center">
 
-    <!-- Contact us -->
-    <!-- main -->
+        <h1> My Skills </h1>
 
-    <!-- footer -->
+        <div class="row">  
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          <div class="col-lg-4 col-md-4 col-10 d-block m-auto">
+              <div class="imgsetting d-block m-auto">
+                <i class="fa fa-code fa-3x"></i>
+              </div>
+              <h2> Lorem </h2>
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, vitae! </p>
+          </div> 
+          <div class="col-lg-4 col-md-4 col-10 d-block m-auto">
+              <div class="imgsetting d-block m-auto">
+                <i class="fa fa-keyboard fa-3x"></i>
+              </div>
+              <h2> Lorem </h2>
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, vitae! </p>
+          </div> 
+          <div class="col-lg-4 col-md-4 col-10 d-block m-auto">
+              <div class="imgsetting d-block m-auto">
+                <i class="fa fa-paint-brush fa-3x"></i>
+              </div>
+              <h2> Lorem </h2>
+              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, vitae! </p>
+          </div> 
+          
+        </div>
+      </div>
+    
+    </section>
+  </div>
+
+  <!-- projects section -->
+
+  <div class="projects">
+    <section class="container text-center">
+
+        <h1> Projects </h1>
+        <p> Some of the projects that I worked on previously </p>
+
+        <div class="row">  
+
+            <div class="col-sm-12 col-md-4 col-lg-4 d-block m-auto">
+              <div class="card rounded" style="width: 18rem;">
+                <img class="card-img-top " src="/img/android.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h2>To-do List app</h2>
+                  <p class="card-text">A simple beginner friendly list taking app supported with firebase </p>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 d-block m-auto">
+              <div class="card rounded" style="width: 18rem;">
+                <img class="card-img-top " src="/img/pythonproj.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h2>To-do List app</h2>
+                  <p class="card-text">Basic music player created with python and pyqt5 </p>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 d-block m-auto">
+              <div class="card rounded" style="width: 18rem;">
+                <img class="card-img-top " src="/img/pygame.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h2>Kill COVID</h2>
+                  <p class="card-text">A funny game developed based on the idea of COVID-19 </p>
+                </div>
+              </div>
+
+
+            </div>
+            
+          
+        </div>
+      </div>
+    
+    </section>
+  </div>
+
+  
+  
+<!--  footer section  -->
+<div class="footerpart ">
+<div class="container m-auto ">
+	<div class="row">
+      <div class="col-md-6 m-auto">
+        <div class="well well-sm ">
+          <form class="form-horizontal " >
+          
+            <h2 class="text-center mt-5">Contact</H2>
+    
+            <div class="form-group mt-5">
+              <label class="col-md-3 " for="name">Name</label>
+              <div class="col-md-12">
+                <input type="text" placeholder="Write your name" class="form-control">
+              </div>
+            </div>
+    
+            <div class="form-group">
+              <label class="col-md-3 " for="email">Your E-mail</label>
+              <div class="col-md-12">
+                <input type="text" placeholder="Enter email" class="form-control">
+              </div>
+            </div>
+    
+            <div class="form-group">
+              <label class="col-md-3 " for="message">Your message</label>
+              <div class="col-md-12">
+                <textarea class="form-control"  placeholder="Please enter your message ..." rows="4"></textarea>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-md-12 text-center">
+                <button type="submit" class="btn btn-primary btn-lg my-5">Let's talk</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+	</div>
+</div>
+</div>
+
+<div class="the-end text-center">
+  <!-- 
+    <div class="social m-auto ">
+    <ul class="m-auto">
+      <li><a href="#" class="fa fa-facebook-square "></a></li>
+      <li><a href="#" class="fa fa-instagram-square "></a></li>
+      
+    </ul>
+  </div>
+
+  -->
+
+  Thank you! :)
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -60,6 +237,7 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script src="./script.js"></script>
-</body>
+  
 
+</body>
 </html>

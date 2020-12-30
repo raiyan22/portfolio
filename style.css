@@ -1,5 +1,178 @@
+
+/* 
+<section class="container aboutme text-center">
+
+      <h1> What I do </h1>
+      
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-10 d-block m-auto">
+            <div class="imgsetting d-block m-auto">
+              <i class="fa fa-rocket fa-3x"></i>
+            </div>
+
+            <h2> Working </h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, odit incidunt. Ut nihil accusantium cupiditate rem, ad nam perspiciatis fuga.</p>
+        </div> 
+        <div class="col-lg-4 col-md-4 col-10 d-block m-auto">
+          <div class="imgsetting d-block m-auto">
+            <i class="fa fa-file-video fa-3x"></i>
+          </div>
+
+          <h2> Working </h2>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, odit incidunt. Ut nihil accusantium cupiditate rem, ad nam perspiciatis fuga.</p>
+      </div> 
+      <div class="col-lg-4 col-md-4 col-10 d-block m-auto">
+        <div class="imgsetting d-block m-auto">
+          <i class="fa fa- fa-3x"></i>
+        </div>
+
+        <h2> Working </h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, odit incidunt. Ut nihil accusantium cupiditate rem, ad nam perspiciatis fuga.</p>
+    </div> 
+      </div>
+    
+  </section>
+*/
+
+/* 
+<!-- footer -->
+<div class="footerportion">
+  <section class="head pb-5">
+    <div class="container py-5">
+      <div class="card">
+          <div class="card-body">
+            <h1 class="text-center" >Contact</h1>
+            <div class="row">
+              <div class="col-lg-6">
+                  <!-- socials -->
+              </div>
+              <div class="col-lg-6">
+                  <div class="row">
+                    
+
+                    </div>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+</div>
+  
+*/
+
 body {
-  background: #172845;
-  color: white;
-  margin-top: 70px;
+  background: url(/img/unpl.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: aliceblue;
+  width: 100%;
+  height: 700px;
 }
+
+.navbar {
+  height : 4.5em ;
+}
+
+.headerset {
+  padding-top:  10em;
+  box-sizing: border-box;
+}
+
+.headerset h2{
+  font-size: 42px;
+}
+.headerset h1{
+  font-size: 72px;
+}
+
+.headerset button{
+  margin-top: 3em;
+  margin-bottom: 8em;
+}
+
+.aboutme {
+  padding: 8em 0em 8em;
+  height: 38em;
+  background: #333;
+}
+
+.aboutme h1 {
+  padding-bottom: 1em;
+}
+
+.aboutme p {
+  font-size: large;
+}
+
+.aboutme > .imgg {
+  padding-left: 2em;
+}
+
+.skills {
+  padding: 8em 0em 8em;
+  height: 35em;
+  background: #666;
+}
+
+.skills h1 {
+  padding-bottom: .8em;
+}
+
+.skills h2 {
+  padding-top: .8em;
+}
+
+.skills p {
+  font-size: large;
+}
+
+.imgsetting {
+  
+  padding-top: 1.8em;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background: rgb(252, 188, 15);
+}
+
+
+.projects {
+  padding-top: 7em;
+  height: 50em;
+  background: #eee;
+  color: #666;
+}
+
+.projects h2{
+  padding-top: .7em;
+}
+
+.projects p {
+  font-size:larger;
+  padding-top: 0.5em;
+  padding-bottom: 2.5em;
+}
+
+.footerpart {
+  padding-top: 3em;
+  background: #222;
+  color: #eee;
+}
+
+.footerpart h2 {
+  font-size: 40px;
+}
+
+.the-end {
+  background: #222;
+  padding-bottom: 1em;
+}
+
+
+
+
+
+
