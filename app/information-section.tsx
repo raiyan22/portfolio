@@ -29,7 +29,7 @@ export default function InfoSection({ title }: { title: String }) {
     ]
     return (
         <div className="mb-12">
-            <SectionTitleHeader title="Information" />
+            <SectionTitleHeader title="Personal Information" />
             <div className="text-gray-400 cursor-default">
                 {information.map((item) => (
                     <div>
