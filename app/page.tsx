@@ -4,6 +4,7 @@ import InfoSection from './information-section'
 import ContactSection from './contact-section'
 import ExperienceSection from './experience-section'
 import TechnologiesSection from './technologies-section'
+import ProjectsSection from './projects-section'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <ContactSection title={""} />
       <ExperienceSection title={""} />
       <TechnologiesSection title={""} />
+      <ProjectsSection title={""} />
     </main>
   )
 }
