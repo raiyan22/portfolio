@@ -8,6 +8,7 @@ import ProjectsSection from './projects-section'
 import LinksSection from './links-section'
 import HobbiesSection from './hobbies-section'
 import SocialSection from './social-media-section'
+import FooterSection from './footer-section'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <LinksSection />
       <HobbiesSection />
       <SocialSection />
+      <FooterSection/>
     </main>
   )
 }
