@@ -17,7 +17,7 @@ export default function Home() {
       <DescriptionSection/>
       {/* <InfoSection title={""} /> */}
       <ContactSection title={""} />
-      <ExperienceSection title={""} />
+      {/* <ExperienceSection title={""} /> */}
       <TechnologiesSection title={""} />
       <ProjectsSection />
       <LinksSection />

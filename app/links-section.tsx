@@ -4,15 +4,11 @@ import SectionTitleHeader from "./section-title-header"
 export default function LinksSection() {
     const links = [
         {
-            "url": "https://www.github.com/raiyan22",
+            "url": "https://www.leetcode.com/mw3e_",
             "icon_path": "/python-logo.png",
-            "label": "Example website 1"
+            "label": "leetcode profile"
         },
-        {
-            "url": "https://www.github.com/raiyan22",
-            "icon_path": "/python-logo.png",
-            "label": "Example website 1"
-        },
+        
     ]
     return (
         <div className="mb-12">

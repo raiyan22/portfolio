@@ -10,24 +10,28 @@ export default function ContactSection({ title }: { title: String }) {
 
             {/*  */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div className="py-4 pl-4 rounded-full bg-slate-800 group">
-                    <div className="flex items-center cursor-default">
+                {/* <div className="py-4 pl-4 rounded-full bg-slate-800 group"> */}
+                <div className="py-4 rounded-full bg-slate-800 group">
+                    <div className="flex items-center justify-around cursor-default">
                         {/* <div className="w-8">
                             <img className="group-hover:-rotate-12 transition ease-in-out duration-100" src="./public/icons8-gmail-96.png" />
                         </div> */}
-                        <div className="ml-4">
+                        {/* <div className="ml-4"> */}
+                        <div className="ml-0    ">
                             <div className="text-slate-500 text-sm tracking-wide font-semibold group-hover:text-slate-400 transition ease-in-out duration-100">
                                 raiyanislam058@gmail.com
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="py-4 pl-4 rounded-full bg-slate-800 group">
-                    <div className="flex items-center cursor-default">
+                {/* <div className="py-4 pl-4 rounded-full bg-slate-800 group"> */}
+                <div className="py-4 rounded-full bg-slate-800 group">
+                    <div className="flex items-center justify-around cursor-default">
                         {/* <div className="w-8">
                             <img className="group-hover:-rotate-12 transition ease-in-out duration-100" src="./public/icons8-callback-96.png" />
                         </div> */}
-                        <div className="ml-4">
+                        {/* <div className="ml-4"> */}
+                        <div className="ml-0">
                             <div className="text-slate-500 text-sm tracking-wide font-semibold group-hover:text-slate-400 transition ease-in-out duration-100">
                                 +88-01531992476
                             </div>
@@ -43,9 +47,10 @@ export default function ContactSection({ title }: { title: String }) {
                         {/* <div className="w-8">
                             <img className="group-hover:-rotate-12 transition ease-in-out duration-100" src="./public/icons8-gmail-96.png" />
                         </div> */}
-                        <div className="ml-4">
+                        <div className="ml-0">
                             <div className="text-slate-500 text-sm tracking-wide font-semibold group-hover:text-slate-400 transition ease-in-out duration-100">
-                                linkedin
+                                <a target="_blank" href="https://www.linkedin.com/in/raiyanulislam/"> linkedin </a>
+                                
                             </div>
                         </div>
                     </div>
@@ -55,9 +60,10 @@ export default function ContactSection({ title }: { title: String }) {
                         {/* <div className="w-8">
                             <img className="group-hover:-rotate-12 transition ease-in-out duration-100" src="./public/icons8-callback-96.png" />
                         </div> */}
-                        <div className="ml-4">
+                        <div className="ml-0">
                             <div className="text-slate-500 text-sm tracking-wide font-semibold group-hover:text-slate-400 transition ease-in-out duration-100">
-                                stackoverflow
+                                <a target="_blank" href="https://www.stackoverflow.com/users/9550867/raiyan22"> stackoverflow</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -67,9 +73,10 @@ export default function ContactSection({ title }: { title: String }) {
                         {/* <div className="w-8">
                             <img className="group-hover:-rotate-12 transition ease-in-out duration-100" src="./public/icons8-callback-96.png" />
                         </div> */}
-                        <div className="ml-4">
+                        <div className="ml-0">
                             <div className="text-slate-500 text-sm tracking-wide font-semibold group-hover:text-slate-400 transition ease-in-out duration-100">
-                                github
+                                <a target="_blank" href="https://www.github.com/raiyan22"> github</a>
+                                
                             </div>
                         </div>
                     </div>
