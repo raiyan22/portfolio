@@ -2,34 +2,36 @@ import Image from "next/image"
 import SectionTitleHeader from "./section-title-header"
 
 export default function SocialSection() {
+    // https://www.iconfinder.com/search?q=telegram&category=social-media
+    // https://logowik.com/twitter-x-icon-logo-vector-59294.html
     const socials = [
         {
-            "url": "https://www.linkedin.com/raiyanulislam",
-            "icon": "/python-logo.png",
+            "url": "https://www.linkedin.com/in/raiyanulislam/",
+            "icon": "/linkedin_icon.svg",
             "icon_alt": "Linkedin icon",
             "label": "linkedin"
         },
         {
             "url": "https://www.t.me/ruiraiyan",
-            "icon": "/python-logo.png",
+            "icon": "/telegram_icon.svg",
             "icon_alt": "Telegram icon",
             "label": "telegram"
         },
         {
-            "url": "https://www.t.me/ruiraiyan",
-            "icon": "/python-logo.png",
+            "url": "https://www.discordapp.com/users/996496959324037170",
+            "icon": "/discord_icon.svg",
             "icon_alt": "Discord icon",
             "label": "discord"
         },
         {
             "url": "https://www.t.me/ruiraiyan",
-            "icon": "/python-logo.png",
+            "icon": "/twitter_x_icon.svg",
             "icon_alt": "Twitter icon",
             "label": "twitter"
         },
         {
-            "url": "https://www.t.me/ruiraiyan",
-            "icon": "/python-logo.png",
+            "url": "https://www.instagram.com/raiyano",
+            "icon": "/instagram_icon.svg",
             "icon_alt": "Instagram icon",
             "label": "instagram"
         },
