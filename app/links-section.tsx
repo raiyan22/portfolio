@@ -1,7 +1,7 @@
 import Image from "next/image"
 import SectionTitleHeader from "./section-title-header"
 
-export default function LinksSection({ title }: { title: String }) {
+export default function LinksSection() {
     const links = [
         {
             "url": "https://www.github.com/raiyan22",

@@ -6,6 +6,7 @@ import ExperienceSection from './experience-section'
 import TechnologiesSection from './technologies-section'
 import ProjectsSection from './projects-section'
 import LinksSection from './links-section'
+import HobbiesSection from './hobbies-section'
 
 export default function Home() {
   return (
@@ -16,8 +17,9 @@ export default function Home() {
       <ContactSection title={""} />
       <ExperienceSection title={""} />
       <TechnologiesSection title={""} />
-      <ProjectsSection title={""} />
-      <LinksSection title={""}/>
+      <ProjectsSection />
+      <LinksSection />
+      <HobbiesSection />
     </main>
   )
 }

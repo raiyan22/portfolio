@@ -3,7 +3,7 @@ import Image from "next/image"
 import WebIcon from "../public/webicon.png"
 import CompareIcon from "../public/refreshicon.png"
 
-export default function ProjectsSection({ title }: { title: String }) {
+export default function ProjectsSection() {
     const projects = [
         {
             "thumbnail": "/paper-cut.jpg",
