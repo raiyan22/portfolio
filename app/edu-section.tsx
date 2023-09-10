@@ -13,12 +13,12 @@ export default function EduSection() {
         // },
         {
             "label": "HSC",
-            "value": "2017 - Notre Dame College, Dhaka",
+            "value": "Notre Dame College, Dhaka",
             "score": "gpa 5.00/5.00"
         },
         {
             "label": "SSC",
-            "value": "2015 - Ideal School and College, Dhaka",
+            "value": "Ideal School and College, Dhaka",
             "score": "gpa 5.00/5.00"
         }
 
