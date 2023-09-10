@@ -4,22 +4,22 @@ export default function ExperienceSection({ title }: { title: String }) {
     const experience = [
         {
             "id": "2",
-            "time_duration": "09/2023 - 12/2023",
-            "company_name": "'Bista Solutions'",
-            "job_role": "Trainee ML Engineer",
+            "time_duration": "01/2023 - 1/2023",
+            "company_name": "",
+            "job_role": "",
             "key_contribution": [
                 {
                     "id": "11",
-                    "desc": "Implemented demand forecasting models on historical sales data.",
+                    "desc": "Fine tuned OpenAI GPT-3.5-turbo model to improve the usability of the ChatSQL project.",
                 },
                 {
                     "id": "22",
                     
-                    "desc": "Worked my way through statistical analysis using python and statsmodels.",
+                    "desc": "Contributed in invoice information extraction project to identify tabular data using layoutllm.",
                 },
                 {
                     "id": "33",
-                    "desc": "Developed a system to use popular forecasting methods in a convenient manner.",
+                    "desc": "Developed a system to use popular demand forecasting models on historical sales data.",
                 }
             ]
         },

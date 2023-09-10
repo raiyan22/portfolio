@@ -24,13 +24,14 @@ export default function SocialSection() {
             "label": "discord"
         },
         {
-            "url": "https://www.t.me/ruiraiyan",
+            "url": "https://twitter.com/_raiyan22",
             "icon": "/twitter_x_icon.svg",
             "icon_alt": "Twitter icon",
             "label": "twitter"
         },
         {
-            "url": "https://www.instagram.com/raiyano",
+            // ;)
+            "url": "https://www.youtube.com/watch?v=xvFZjo5PgG0&ab_channel=Duran", 
             "icon": "/instagram_icon.svg",
             "icon_alt": "Instagram icon",
             "label": "instagram"
@@ -50,7 +51,8 @@ export default function SocialSection() {
                         <div className="rounded-xl text-center bg-transparent group">
                             <div className="p-4">
                                 <div className="flex justify-center mb-2 sm:mb-3 md:mb-4">
-                                    <Image src={link.icon} alt={link.icon_alt} quality={100} width={26} height={26} className="w-14 sm:w-12 md:w-12 group-hover:scale-105 group-hover:-rotate-12 ease-in duration-100"/>
+                                    {/* <Image src={link.icon} alt={link.icon_alt} quality={100} width={26} height={26} className="w-14 sm:w-12 md:w-12 group-hover:scale-105 group-hover:-rotate-12 ease-in duration-100"/> */}
+                                    <Image src={link.icon} alt={link.icon_alt} quality={100} width={26} height={26} className="w-14 sm:w-12 md:w-12 group-hover:scale-110 ease-in duration-100"/>
                                 </div>
                                 <span className="text-xs md:text-sm text-slate-600 font-bold group-hover:tracking-wider ease-in duration-100">
                                     {link.label}

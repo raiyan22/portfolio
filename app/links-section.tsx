@@ -5,8 +5,13 @@ export default function LinksSection() {
     const links = [
         {
             "url": "https://www.leetcode.com/mw3e_",
-            "icon_path": "/python-logo.png",
+            "icon_path": "/leetcode_icon.png",
             "label": "leetcode profile"
+        },
+        {
+            "url": "https://www.stackoverflow.com/users/9550867/raiyan22",
+            "icon_path": "/stackoverflow_icon.png",
+            "label": "stackoverflow profile"
         },
         
     ]

@@ -25,6 +25,10 @@ export default function TechnologiesSection({ title }: { title: String }) {
         },
         {
             "icon_path": "/java-logo.png",
+            "label": "swift"
+        },
+        {
+            "icon_path": "/java-logo.png",
             "label": "openCV"
         },
         {

@@ -1,6 +1,5 @@
 import Image from "next/image";
-
-import ProfileImage from '../public/propic.png'
+import ProfileImage from '../public/profilepic.jpg'
 
 export default function TopSection() {
     return (
@@ -11,15 +10,17 @@ export default function TopSection() {
                         Md. Raiyanul Islam
                     </span>
                     <p className="text-sm sm:text-base text-slate-500">
+                        
+                        
                         Fresh graduate looking for Software Engineer role
                     </p>
 
                 </div>
                 <div>
-                    <Image src={ProfileImage} alt="profile-image" quality={100}/>
+                    <Image className="rounded-full" src={ProfileImage} alt="profile-image" width={140} height={140} quality={100} />
                 </div>
             </div>
         </div>
-        
+
     )
 }

@@ -1,37 +1,33 @@
 import SectionTitleHeader from "./section-title-header"
 
-export default function InfoSection({ title }: { title: String }) {
-    const information = [
+export default function EduSection() {
+    const education = [
         {
-            "label": "name",
-            "value": "Md. Raiyanul Islam"
+            "label": "B.Sc. (CSE)",
+            "value": "Khulna University of Engineering & Technology (KUET)",
+            "score": "cgpa 3.64/4.00"
         },
         // {
         //     "label": "dob",
         //     "value": "29 December, 1999"
         // },
         {
-            "label": "location",
-            "value": "Dhaka, Bangladesh"
+            "label": "HSC",
+            "value": "2017 - Notre Dame College, Dhaka",
+            "score": "gpa 5.00/5.00"
         },
         {
-            "label": "languages",
-            "value": "English, Bangla, Hindi"
-        },
-        {
-            "label": "experience",
-            "value": "n/a"
-        },  
-        {
-            "label": "status",
-            "value": "Always exploring new ideas"
+            "label": "SSC",
+            "value": "2015 - Ideal School and College, Dhaka",
+            "score": "gpa 5.00/5.00"
         }
+
     ]
     return (
         <div className="mb-12">
-            <SectionTitleHeader title="Personal Information" />
+            <SectionTitleHeader title="Education" />
             <div className="text-gray-400 cursor-default">
-                {information.map((item) => (
+                {education.map((item) => (
                     <div>
                         <div className="flex flex-row mb-4">
                             <div className="basis-1/3">
@@ -42,6 +38,8 @@ export default function InfoSection({ title }: { title: String }) {
                             </div>
                             <div className="basis-2/3">
                                 <p>{item.value}</p>
+                                {/* score */}
+                               {/* <span className="text-sky-600 font-black">   <p>{item.score}</p> </span> */}
                             </div>
                         </div>
                     </div>
