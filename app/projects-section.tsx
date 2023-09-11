@@ -38,7 +38,7 @@ export default function ProjectsSection() {
             "name": "iFit",
             "description": "Mobile application for iOS platform made with Swift to help a user to exercise and workout. Implemented the authentication system using Firebase.",
             "live_link": "#",
-            "github_link": "https://www.github.com/raiyan22/iFit",
+            "github_link": "https://www.github.com/raiyan22/iFit-iOS-fitness-App",
         },
         {
             "thumbnail": "/covidkiller.png",
