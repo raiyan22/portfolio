@@ -44,7 +44,7 @@ export default function SocialSection() {
             <div className="text-base mb-4 text-gray-200">
                 Connect with me through social networks.
             </div>
-            <div className="grid grid-cols-3 sm:grid-cols-5 gap-3">
+            <div className="grid grid-cols-3 sm:grid-cols-4 gap-3">
                 {socials.map((link) => (
                     <a href={link.url} target="_blank">
                         {/* <div className="rounded-xl text-center bg-slate-900 group"> */}
