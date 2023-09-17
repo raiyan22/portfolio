@@ -20,11 +20,11 @@ export default function ProjectsSection() {
             "github_link": "https://www.github.com/raiyan22/Thesis",
         },
         {
-            "thumbnail": "/chatcsv.jpg",
+            "thumbnail": "/chatsql.jpg",
             "name": "ChatSQL",
             "description": "Powered by langchain and OpenAI that delivers information to the user from a custom or existing SQL database in an organized, personalized and conversational manner.",
             "live_link": "#",
-            "github_link": "https://github.com/raiyan22/chatCSV",
+            "github_link": "https://github.com/raiyan22/chatSQL",
         },
         {
             "thumbnail": "/springboot.jpg",
