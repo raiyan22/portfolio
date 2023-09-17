@@ -11,12 +11,12 @@ export default function SocialSection() {
             "icon_alt": "Linkedin icon",
             "label": "linkedin"
         },
-        {
-            "url": "https://www.t.me/ruiraiyan",
-            "icon": "/telegram_icon.svg",
-            "icon_alt": "Telegram icon",
-            "label": "telegram"
-        },
+        // {
+        //     "url": "https://www.t.me/ruiraiyan",
+        //     "icon": "/telegram_icon.svg",
+        //     "icon_alt": "Telegram icon",
+        //     "label": "telegram"
+        // },
         {
             "url": "https://www.discordapp.com/users/996496959324037170",
             "icon": "/discord_icon.svg",
