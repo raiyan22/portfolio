@@ -1,6 +1,7 @@
 export default function DescriptionSection() {
 
-    const cv_link = "https://drive.google.com/file/d/1L08e0peSZUpGHBFVOkZwoVn_J_uKkOhm/view?usp=sharing"
+    // const cv_link = "https://drive.google.com/file/d/1L08e0peSZUpGHBFVOkZwoVn_J_uKkOhm/view?usp=sharing"
+    const cv_link = "https://drive.google.com/file/d/1hkD0Cmg9810gGncZiys9fDlWHH2SK_av/view?usp=sharing"
 
     return (
         <div className="mb-12">
